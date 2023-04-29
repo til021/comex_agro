@@ -6,7 +6,7 @@ Este estudo contempla apenas produtos de interesse agropecuário, assim classifi
 Foram considerados dados obtidos entre janeiro de 2013 e dezembro de 2022, perfazendo um total de 10 anos de dados.
 
 
-**Descrição das colunas e tabelas auxiliares**  [4]
+**Descrição das colunas e tabelas auxiliares:**  [4]
 
 - **CO_ANO**: Ano (1997 a 2021)  
 
