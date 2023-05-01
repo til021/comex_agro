@@ -1,38 +1,12 @@
-# comex_agro
-Este repositório busca ajudar as autoridades aduaneiras a identificar quais produtos agrários possuem maior potencial de contrabando, ou seja, os produtos agrários mais atrativos para a comercialização ilegal no país.
+# Estatísticas de Comércio Exterior em Dados Abertos - Produtos Agropecuários
 
-Este estudo contempla apenas produtos de interesse agropecuário, assim classificados de acordo com as normas internacionais - “International Standard Industrial Classification of All Economic Activities” (ISIC). 
+Este repositório fornece uma análise gráfica das importações e exportações agropecuárias brasileiras, ocorridas no período de janeiro de 2013 a dezembro de 2022. 
+É possível analisar tanto as origens como os destinos dos produtos comercializados, incluindo o modal de transporte utilizado nas operações. Contudo, são contemplados apenas produtos de interesse agropecuário, assim classificados de acordo com as normas internacionais - “International Standard Industrial Classification of All Economic Activities” (ISIC). 
 
-Foram considerados dados obtidos entre janeiro de 2013 e dezembro de 2022, perfazendo um período total de 10 anos analisados.
-
-A obtenção dos produtos com maior potencial para o contrabando foi obtida analizando a razão entre o preço e o peso líquido da mercadoria. Quando a relação preço/peso é mais elavada temos um indicativo de produto com alto valor agregado e baixo peso, ou seja, são produtos caros e fáceis de serem transportados. 
-
-
-**Descrição das colunas e tabelas auxiliares:**  [4]
-
-- **CO_ANO**: Ano (1997 a 2021)  
-
-- **CO_MES**: Código do mês (1:Janeiro a 12:Dezembro)
-
-- **CO_NCM**: Código da Nomenclatura Comum Mercosul - Utilizada para controle e identificação das mercadorias comercializadas no Brasil e nos outros países do Mercosul (cada NCM representa um produto diferente)
-
-- **CO_UNID**: Código da Unidade de Medida Estatística que é uma unidade de medida padrão para cada NCM, podendo ter valores como quilograma, metro, litro, pares, tonelada e outros.
-
-- **CO_PAIS**: Código do nome do país com a qual foi realizada a operação comercial (importação ou exportação).
-
-- **SG_UF _NCM (sigla UF origem/destino da NCM)**: Código da Unidade Federativa (estado) de origem (exportação) ou destino (importação) da mercadoria
-
-- **CO_VIA**: Código para identificação do meio de transporte utilizado (aéreo, marítimo, rodoviária, ferroviária e outros). Na exportação, é o método utilizado para o transporte de mercadorias entre o último local de embarque para o exterior. Na importação, configura-se através dos meios de acesso para os bens do primeiro ponto de entrada no território nacional.
-
-- **CO_URF (Unidade da Receita Federal)**: Código da agência responsável pela execução dos procedimentos necessários para o desembaraço aduaneiro da mercadoria importada/exportada.  
-
-- **QT_ESTAT**: No detalhamento por NCM, cada produto tem sua unidade estatística. Grande parte dos produtos tem como unidade estatística o peso em quilogramas, mas existem outras: quilograma líquido, número (unidades), pares, dúzias, milheiro, tonelada. A tabela completa que relaciona cada NCM com sua unidade estatística pode ser encontrada em na tabela “NCM _ UNIDADE”. É importante ressaltar que não se deve somar quantidades estatísticas de NCMs que contenham unidades estatísticas diferentes.  
-
-- **KG_LIQUIDO**: Medida que expressa o peso líquido da mercadoria. Mesmo produtos com quantidades estatísticas diferentes do quilograma também possuem disponível a medida em quilograma, referindo-se ao peso líquido da mercadoria, ou seja, mercadoria desconsiderando embalagens, caixas ou quaisquer outros adicionais de transporte. Vale relembrar que essa informação, bem como as demais informadas nas operações de comércio exterior, é de livre preenchimento e de responsabilidade exclusiva dos operadores de comércio exterior.
-
-- **VL_FOB**: O valor FOB indica o preço da mercadoria em dólares americanos (US$) sob o Incoterm FOB (Free on Board), modalidade na qual o vendedor é responsável por embarcar a mercadoria enquanto o comprador assume o pagamento do frete, seguros e demais custos pós embarque. 
+Os dados foram obtidos no site oficial do Ministério da Economia [1], tratados através do python e expostos para visualização no Tableau Public [0]. É possivel visualizar as principais exportações e importações brasileiras, tanto em peso líquido (kg), quanto em custo FOB (U$). Adicionalmente, foi apresentada a relação custo/peso (U$/Kg), a fim de identificar quais produtos apresentam a maior vantagem econômica em sua comercialização.  
 
 **Fonte dos dados**  
+**[0]** 
 **[1]** Base de dados. Disponível em: https://www.gov.br/produtividade-e-comercio-exterior/pt-br/assuntos/comercio-exterior/estatisticas/base-de-dados-bruta  
 **[2]** Estatísticas de Comércio Exterior em Dados Abertos. Disponível em: http://comexstat.mdic.gov.br/pt/home  
 **[3]** Manual de utilização dos dados estatísticos do comércio exterior brasileiro. Disponível em: https://balanca.economia.gov.br/balanca/manual/Manual.pdf  
