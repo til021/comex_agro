@@ -1,4 +1,4 @@
-# Estatísticas de Comércio Exterior em Dados Abertos - Produtos Agropecuários
+# Estatísticas de Comércio Exterior em Dados Abertos - Produtos Agropecuários de Maior Vantagem Econômica
 
 Este repositório fornece uma análise gráfica das importações e exportações agropecuárias brasileiras, ocorridas no período de janeiro de 2013 a dezembro de 2022. 
 É possível analisar tanto as origens como os destinos dos produtos comercializados, incluindo o modal de transporte utilizado nas operações. Contudo, são contemplados apenas produtos de interesse agropecuário, assim classificados de acordo com as normas internacionais - “International Standard Industrial Classification of All Economic Activities” (ISIC). 
