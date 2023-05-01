@@ -9,8 +9,8 @@ Os dados foram obtidos no site oficial do Ministério da Economia [1], tratados 
 
 
 Se for usar os dados deste repositório, referenciar:  
-**Tiago Lima** (2023). Comex_Agro: Estatísticas de Comércio Exterior em Dados Abertos - Produtos Agropecuários de Maior Vantagem Econômica. 
-GitHub: https://github.com/til021/comex_agro
+**Tiago Lima (2023). Comex_Agro: Estatísticas de Comércio Exterior em Dados Abertos - Produtos Agropecuários de Maior Vantagem Econômica. 
+GitHub: https://github.com/til021/comex_agro**
 
 **Fonte dos dados**  
 **[1]** Base de dados. Disponível em: https://www.gov.br/produtividade-e-comercio-exterior/pt-br/assuntos/comercio-exterior/estatisticas/base-de-dados-bruta  
