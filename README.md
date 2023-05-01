@@ -5,7 +5,7 @@ Este repositório fornece uma análise gráfica das importações e exportaçõe
 
 Os dados foram obtidos no site oficial do Ministério da Economia [1], tratados através do python e expostos para visualização no Tableau Public. É possivel visualizar as principais exportações e importações brasileiras, tanto em peso líquido (kg), quanto em custo FOB (U$). Adicionalmente, foi apresentada a relação custo/peso (U$/Kg), a fim de identificar quais produtos apresentam a maior vantagem econômica em sua comercialização.  
 
-**Resultados**: https://public.tableau.com/app/profile/tiago.lima1205/viz/Comex_Dash/Dash?publish=yes  
+**Resultados**: https://public.tableau.com/app/profile/tiago.lima1205/viz/Comex_Agro/Dash 
 
 
 Se for usar os dados deste repositório, referenciar:  
