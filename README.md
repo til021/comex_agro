@@ -16,4 +16,4 @@ GitHub: https://github.com/til021/comex_agro
 **[1]** Base de dados. Disponível em: https://www.gov.br/produtividade-e-comercio-exterior/pt-br/assuntos/comercio-exterior/estatisticas/base-de-dados-bruta  
 **[2]** Estatísticas de Comércio Exterior em Dados Abertos. Disponível em: http://comexstat.mdic.gov.br/pt/home  
 **[3]** Manual de utilização dos dados estatísticos do comércio exterior brasileiro. Disponível em: https://balanca.economia.gov.br/balanca/manual/Manual.pdf  
-**[4]** Descrição das colunas e tabelas auxiliares disponível em https://www.kaggle.com/datasets/daniellecd/dados-de-exportao-e-importao-do-brasil.  
+**[4]** Descrição das colunas e tabelas auxiliares disponível em: https://www.kaggle.com/datasets/daniellecd/dados-de-exportao-e-importao-do-brasil.  
