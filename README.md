@@ -3,7 +3,9 @@ Este repositório busca ajudar as autoridades aduaneiras a identificar quais pro
 
 Este estudo contempla apenas produtos de interesse agropecuário, assim classificados de acordo com as normas internacionais - “International Standard Industrial Classification of All Economic Activities” (ISIC). 
 
-Foram considerados dados obtidos entre janeiro de 2013 e dezembro de 2022, perfazendo um total de 10 anos de dados.
+Foram considerados dados obtidos entre janeiro de 2013 e dezembro de 2022, perfazendo um período total de 10 anos analisados.
+
+A obtenção dos produtos com maior potencial para o contrabando foi obtida analizando a razão entre o preço e o peso líquido da mercadoria. Quando a relação preço/peso é mais elavada temos um indicativo de produto com alto valor agregado e baixo peso, ou seja, são produtos caros e fáceis de serem transportados. 
 
 
 **Descrição das colunas e tabelas auxiliares:**  [4]
